@@ -1,0 +1,68 @@
+.About-Approach{
+    margin: auto 35%;
+    padding: 20px;
+    text-align: center; 
+}
+.About-container{
+    width: 80%;
+    display: grid;
+    margin:0 auto;
+    padding: 10px 10px;
+grid-template-areas: 
+  'About-container5 About-container6 About-container7 About-container8';
+}
+.About-container1{grid-area:About-container1;}
+.About-container2{grid-area:About-container2;}
+.About-container3{grid-area:About-container3;}
+.About-container4{grid-area:About-container4;}
+.About-container5{grid-area:About-container5;}
+.About-container6{grid-area:About-container6;}
+.About-container7{grid-area:About-container7;}
+.About-container8{grid-area:About-container8;}
+
+.About-Card{ 
+    padding:  3% 20%;}
+    
+    .Card{
+        padding: 180%;
+    }
+    
+@media only screen and (max-width: 768px) {
+    
+
+    .About-container{ 
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-areas: 
+      'About-container1 About-container2 '
+      ' About-container3 About-container4'  
+      'About-container5 About-container6'
+      ' About-container7 About-container8';
+    }
+    
+}
+
+@media only screen and (max-width: 320px) {
+    
+    
+.About-Card{ 
+    padding:  3% 9%;}
+}
+
+@media only screen and (max-width:425px){ 
+    .About-Approach h1{font-size: 13px;}
+    .About-container{ 
+        size: 20px; 
+    grid-template-columns: repeat(1,1fr);
+    grid-template-areas: 
+      'About-container1 '
+      'About-container2 '
+      ' About-container3'
+      ' About-container4'  
+      'About-container5'
+      ' About-container6'
+      ' About-container7'
+      ' About-container8';
+    
+       
+    }
+}

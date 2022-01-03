@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+}
+:root{
+    --black: #111111;
+    --white: #f8f8ff;
+    --teal:#414297;
+    --teal-black:#414297;
+    --navyBlue:#b1b2b4;
+}
+/* .appContainer{
+    background-color: var(--navyBlue);
+} */

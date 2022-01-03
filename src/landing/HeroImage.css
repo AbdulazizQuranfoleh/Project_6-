@@ -1,0 +1,61 @@
+.heroImageContainer {
+  min-width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://keystoneacademic-res.cloudinary.com/image/upload/f_auto,q_auto,c_fill,w_1920/element/13/139646_Lawyer7reasonstobecomenumber2.jpg");
+  background-position: center;
+
+}
+.heroImageContainer .actionArea {
+  
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white);
+  padding-left: 50% ;
+  font-size: 1.4em;
+}
+
+.heroImageContainer .actionArea h2 {
+  font-size: 1.6em;
+  padding: 2px 4px;
+}
+.heroImageContainer .actionArea button {
+  background-color: var(--teal);
+  padding: 3px 20px;
+  border-radius: 15px;
+  border: none;
+  transition: 0.3s ease;
+  font-size: 0.9em;
+  color: white;
+}
+.heroImageContainer .actionArea button:hover {
+  background-color: var(--navyBlue);
+  padding: 3px 70px;
+  border-radius: 10px;
+  border: none;
+}
+@media screen and (max-width:1000px){
+  .heroImageContainer .actionArea{
+    padding-left:10%;
+    text-align: center;
+  }
+  .heroImageContainer .actionArea p{
+    max-width: 100%;
+
+  }
+  .heroImageContainer .actionArea button{
+  justify-content: end;
+  }
+  .heroImageContainer .actionArea p, .heroImageContainer .actionArea h2,.heroImageContainer .actionArea button{
+    margin: 10px auto;
+  }
+  
+ 
+}
+
