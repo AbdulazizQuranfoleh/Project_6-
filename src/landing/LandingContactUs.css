@@ -22,7 +22,7 @@ div.landingContactUsComp > div > div.contactSecTitle > h2 {
   display: flex;
 }
 .landingContactUsComp .mainContainer button {
-  background-color: var(--teal);
+  background-color: var(--blue);
   padding: 5px 15px;
   border-radius: 15px;
   border: none;

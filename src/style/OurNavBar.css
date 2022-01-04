@@ -24,10 +24,10 @@
 .navMainContainer .pagesLinks * {
   text-decoration: none;
   list-style: none;
-  color: var(--teal);
+  color: var(--blue);
 }
 /* .navMainContainer .pagesLinks *:hover {
-  color: var(--teal);
+  color: var(--blue);
 } */
 .navMainContainer .pagesLinks ul {
   display: flex;

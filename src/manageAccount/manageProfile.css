@@ -29,7 +29,7 @@
 .profileBtn {
  
   border-radius: 10px;
-  background-color: var(--teal);
+  background-color: var(--blue);
   color: var(--white);
   border: none;
 }

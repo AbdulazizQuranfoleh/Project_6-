@@ -21,10 +21,10 @@
   padding: 0.5em;
 }
 .linkAccount:hover {
-  color: var(--teal);
+  color: var(--blue);
 }
 .dynamic {
-  border-bottom: 4px solid var(--teal);
+  border-bottom: 4px solid var(--blue);
 }
 @media screen and (max-width: 800px) {
   .account {

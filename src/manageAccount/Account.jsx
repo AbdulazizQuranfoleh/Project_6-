@@ -32,7 +32,7 @@ const Account = () => {
           </li>
           <li>
             <Link to="/account/ManageReservations" className={"linkAccount " + (active === 'ManageReservation' ? 'dynamic' : "")} onClick={dynamicReservation}>
-              Reservations
+              cart
             </Link>
           </li>
         </ul>
